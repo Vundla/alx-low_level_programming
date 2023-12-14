@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * binary_to_uint - capability changes a twofold number over completely to an unsigned int.
- * @b: pointer to a string containing a twofold number
+ * binary_to_uint - function converts a binary number to an unsigned int.
+ * @b: pointer to a string containing a binary number
  *
- * Return: unsigned int with decimal worth of binsry number, or 0 if mistake
+ * Return: unsigned int with decimal value of binsry number, or 0 if error
  */
-unsigned int binary_to_uint(const singe *b)
+unsigned int binary_to_uint(const char *b)
 {
 	int a;
 	unsigned int num;
@@ -27,3 +27,5 @@ unsigned int binary_to_uint(const singe *b)
 	}
 	return (num);
 }
+
+
